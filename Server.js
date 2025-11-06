@@ -16,3 +16,6 @@ app.post("/users", (req, res) => {
 app.listen(Port, () => {
   console.log("Servidor está rodando");
 });
+
+
+module.exports = {CriarUsuario}
